@@ -16,8 +16,9 @@
 
 > ✅ Grava cliques do mouse (esquerdo, direito, Mouse4, Mouse5) com posições exatas.  
 > ✅ Grava pressionamentos de teclas com timing preciso.  
-> ✅ Interface gráfica simples (Tkinter) para controle da gravação.  
+> ✅ Interface gráfica completa (Tkinter) para gravação e reprodução.  
 > ✅ Reproduz exatamente a sequência gravada com os mesmos intervalos de tempo.  
+> ✅ Execução em loop com intervalo configurável entre repetições.  
 > ✅ Suporte a interrupção via tecla ESC durante a reprodução.
 
 ---
@@ -31,15 +32,12 @@
 > pip install pynput keyboard
 > ```
 > 
-> 3️⃣ Para gravar eventos:
+> 3️⃣ Execute o programa principal:
 > ```bash
 > python main.py
 > ```
 > 
-> 4️⃣ Para reproduzir eventos gravados:
-> ```bash
-> python autoclicker.py
-> ```
+> 4️⃣ Use a interface para gravar (F8/F9) e reproduzir eventos automaticamente.
 
 ---
 
