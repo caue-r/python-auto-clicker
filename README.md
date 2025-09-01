@@ -1,66 +1,66 @@
 # Python Auto Clicker
 
-> Ferramenta experimental para **gravar e reproduzir sequências de cliques do mouse e teclas do teclado**.  
-> Ideal para automatizar tarefas repetitivas, testes de interface ou macros simples.
+> Experimental tool to **record and replay mouse clicks and keyboard key sequences**.  
+> Ideal for automating repetitive tasks, interface testing, or simple macros.
 
 ---
 
-## ⚠️ Aviso
+## ⚠️ Warning
 
-> - Este projeto é **experimental** e **pode conter bugs**.  
-> - Use por sua conta e risco, deve funcionar na maioria dos casos.
-
----
-
-## Funcionalidades
-
-> ✅ Grava cliques do mouse (esquerdo, direito, Mouse4, Mouse5) com posições exatas.  
-> ✅ Grava pressionamentos de teclas com timing preciso.  
-> ✅ Interface gráfica completa (Tkinter) para gravação e reprodução.  
-> ✅ Reproduz exatamente a sequência gravada com os mesmos intervalos de tempo.  
-> ✅ Execução em loop com intervalo configurável entre repetições.  
-> ✅ Suporte a interrupção via tecla ESC durante a reprodução.
+> - This project is **experimental** and **may contain bugs**.  
+> - Use at your own risk, it should work in most cases.
 
 ---
 
-## Como usar (Python)
+## Features
 
-> 1️⃣ Clone este repositório ou [baixe os arquivos manualmente](https://github.com/caue-r/python-auto-clicker/archive/refs/heads/main.zip).  
+> ✅ Records mouse clicks (left, right, Mouse4, Mouse5) with exact positions.  
+> ✅ Records key presses with precise timing.  
+> ✅ Full graphical interface (Tkinter) for recording and playback.  
+> ✅ Replays the recorded sequence exactly with the same time intervals.  
+> ✅ Loop execution with configurable interval between repetitions.  
+> ✅ Supports interruption via ESC key during playback.
+
+---
+
+## How to Use (Python)
+
+> 1️⃣ Clone this repository or [download the files manually](https://github.com/caue-r/python-auto-clicker/archive/refs/heads/main.zip).  
 > 
-> 2️⃣ Instale as dependências:
+> 2️⃣ Install the dependencies:  
 > ```bash
 > pip install pynput keyboard
 > ```
 > 
-> 3️⃣ Execute o programa principal:
+> 3️⃣ Run the main program:  
 > ```bash
 > python main.py
 > ```
 > 
-> 4️⃣ Use a interface para gravar (F8/F9) e reproduzir eventos automaticamente.
+> 4️⃣ Use the interface to record (F8/F9) and automatically replay events.
 
 ---
 
-## Controles
+## Controls
 
-> **F8**: Iniciar gravação  
-> **F9**: Parar gravação  
-> **ESC**: Interromper reprodução
-
----
-
-## Como usar (Executável)
-
-> Baixe o arquivo `.exe` na aba [Releases do projeto](https://github.com/caue-r/python-auto-clicker/releases) e execute diretamente **sem precisar instalar Python**.
+> **F8**: Start recording  
+> **F9**: Stop recording  
+> **ESC**: Stop playback  
 
 ---
 
-## Contribuição
+## How to Use (Executable)
 
-> Pull requests e sugestões são bem-vindas.
+> Download the `.exe` file from the [project Releases page](https://github.com/caue-r/python-auto-clicker/releases) and run it directly **without needing to install Python**.
 
 ---
 
-## Licença
+## Contribution
 
-> Este projeto é experimental e sem garantia, sendo disponibilizado sob a [licença MIT](https://github.com/caue-r/python-auto-clicker/blob/main/LICENSE). 
+> Pull requests and suggestions are welcome.
+
+---
+
+## License
+
+> This project is experimental and without warranty, and is available under the [MIT license](https://github.com/caue-r/python-auto-clicker/blob/main/LICENSE).  
